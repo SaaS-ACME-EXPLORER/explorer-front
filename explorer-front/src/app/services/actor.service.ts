@@ -9,7 +9,7 @@ export class ActorService {
 
     token: string;
     userRole: string;
-    private backendApiBaseURL = 'http://localhost:8080';
+    private backendApiBaseURL = 'http://localhost:3000';
 
     constructor(
         private http: HttpClient,

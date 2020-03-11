@@ -17,7 +17,7 @@ import { ActorService } from './services/actor.service';
 
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyDq2JQ1sFsFNyfV9Lysu01JTs7jADPimsY',
+  apiKey: 'AIzaSyD1JoPNcFbhi_2It1maGfuiB4P7U6jkfFE',
   authDomain: 'acmesupermarketauth.firebaseapp.com',
   databaseURL: 'https://acmesupermarketauth.firebaseio.com',
   projectId: 'acmesupermarketauth',

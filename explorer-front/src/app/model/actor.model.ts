@@ -9,8 +9,9 @@ export class Actor extends Entity {
     email: string;
     password: string;
     address: string;
-    validated: boolean;
+    active: boolean;
     customToken: string;
     preferredLanguage = 'en';
     idToken: string;
+    finder:null;
 }
