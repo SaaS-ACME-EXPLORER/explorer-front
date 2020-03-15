@@ -14,7 +14,7 @@ const httpOptions = {
 })
 export class AuthService implements OnInit {
 
-  private apiBackendUrl = 'http://localhost:8080';
+  private apiBackendUrl = 'http://localhost:3000';
   private currentActor: Actor;
 
 
@@ -51,7 +51,7 @@ export class AuthService implements OnInit {
   }
 
    login(email: string, password: string) {
-    const url = this.apiBackendUrl + `/v1/login?email=${email}&password=${password}`;
+    const url = this.apiBackendUrl + `/api/v1/login?email=${email}&password=${password}`;
     const headers = new HttpHeaders();
     headers.append('Content-Type', 'application/json');
 
