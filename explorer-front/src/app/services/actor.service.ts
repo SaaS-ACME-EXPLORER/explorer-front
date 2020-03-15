@@ -28,7 +28,7 @@ export class ActorService {
         delete putActor.idToken;
         delete putActor.customToken;
 
-        const body = JSON.stringify(actor);
+        const body = {'actorId': actor._id, 'updatedActor':putActor};
 
         return new Promise<any>((resolve, reject) => {
             this.http.put(url, body,   {
